@@ -1,0 +1,26 @@
+<label for="fullname">Họ tên:</label>
+        <br />
+        <input type="text" name="full_name" id="fullname" />
+        <br />
+        <label id="color">Màu sắc iu thik nhất:</label>
+        <br />
+        <select name="coulours" id="color" size="1">
+            <option>--Chọn--</option>
+            <option value="yellow">Vàng</option>
+            <option value="red">Đỏ</option>
+            <option value="orange">Cam</option>
+            <option value="green">Xanh lá</option>
+            <option value="blue">Xanh da trời</option>
+            <option value="white">Trắng</option>
+        </select>
+        <br />
+
+        <label id="note">Ghi chú:</label>
+        <br />
+        <textarea name="ghiChu" id="note" rows="7" cols="50"></textarea>
+
+        <br />
+        <br />
+        <!-- button might use in and out form but input only use in form -->
+        <!-- <input type="submit" value="Đăng nhập" /> -->
+        <button type="submit">Gửi</button>
